@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Hanken+Grotesk:wght@500&family=Lexend+Deca&family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 14px;
+    background-color: hsl(211, 68%, 94%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.main {
+    height: 90%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 1rem;
+}
+
+.first-unread, .second-unread, .third-unread {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.color {
+    background-color: hsl(211, 68%, 94%);
+}
+
+.color-second {
+    background-color: hsl(211, 68%, 94%);
+}
+
+.color-third {
+    background-color: hsl(211, 68%, 94%);
+}
+
+img {
+    padding: 0.2rem;
+    
+    width: 8%;
+}
+
+.private {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.button {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(219, 85%, 26%);
+    font-weight: bold;
+}
+
+.message {
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    margin-left: 65px;
+    margin-right: 20px;
+    line-height: 1.2;
+    padding: 1rem 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-weight: 400;
+    margin-left: 1rem;
+    margin-top: 2px;
+    color: rgb(151, 151, 151);
+}
+
+.text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.first-readed, .second-readed, .third-readed {
+    
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.chess {
+    margin-left: 195px;
+}
+
+
+.name{
+    font-weight: bold;
+    color: black;
+}
+
+.tresc {
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    font-size: 15px;
+}
+
+.club {
+    font-weight: bolder;
+    font-size: 15px;
+    color: hsl(219, 85%, 26%);
+}
+
+.btn {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: rgb(120, 120, 120);
+}
+
+@media only screen and (max-width: 376px) {
+
+    .main{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .container {
+        margin: 1rem;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    img {
+        width: 16%;
+        margin-left: 0.7rem;
+    }
+
+    body {
+        background-color: #fff;
+    }
+
+    .chess {
+        margin: 0;
+    }
+
+    .readed {
+        padding-bottom: 3rem;
+    }
+}
